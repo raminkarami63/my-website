@@ -2,7 +2,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div>page</div>
+    <div className='bg-[#3F3F46]'>page</div>
   )
 }
 
