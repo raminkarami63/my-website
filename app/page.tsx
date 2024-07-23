@@ -13,7 +13,7 @@ function page() {
           <span>
             <Typewriter
               words={["Front-end Developer"]}
-              loop={5}
+              loop={true}
               cursor
               cursorStyle="_"
               typeSpeed={70}

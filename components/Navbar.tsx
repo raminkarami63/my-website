@@ -22,22 +22,22 @@ function Navbar() {
         </NavbarBrand>
         <NavbarContent className="hidden sm:flex gap-4" justify="center">
           <NavbarItem>
-            <Link className="text-[#D4D4D8] text-xs " href="#">
+            <Link className="text-[#D4D4D8] text-xs " href="/">
               Home
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link className="text-[#D4D4D8] text-xs" href="#">
-              Open Source
+            <Link className="text-[#D4D4D8] text-xs" href="/projects">
+              Projects
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link className="text-[#D4D4D8] text-xs" href="#">
+            <Link className="text-[#D4D4D8] text-xs" href="/github">
               Github
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link className="text-xs" href="#">
+            <Link className="text-xs" href="/contact">
               Contact
             </Link>
           </NavbarItem>
