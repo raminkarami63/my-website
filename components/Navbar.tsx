@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import {
   Navbar as Nav,
   NavbarBrand,
@@ -6,15 +7,19 @@ import {
   NavbarItem,
   Link,
   Avatar,
+  image,
 } from "@nextui-org/react";
+import My from "../public/my.jpg";
+
 
 function Navbar() {
   return (
     <Nav className="bg-[#27272A]" shouldHideOnScroll>
         <div className="flex gap-4 items-center">
-          <Avatar
-            src="https://i.pravatar.cc/150?u=a04258114e29026708c"
-            className="w-14 h-14 text-large"
+          <Image
+            src={My}
+            alt="my"
+            className="w-14 h-14 rounded-full text-large"
           />
         </div>
         <NavbarBrand>
