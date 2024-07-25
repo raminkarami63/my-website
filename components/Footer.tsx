@@ -5,8 +5,8 @@ import Github from "../public/Github.png";
 import instagram from "../public/instagram.svg";
 function Footer() {
   return (
-    <div className="absolute flex justify-between items-center px-8 w-full h-12 bottom-0 bg-[#52525B]">
-      <p className="text-xs text-[#D4D4D8] ">
+    <div className="absolute flex justify-between items-center px-8 w-full h-12 bottom-0 bg-zinc-600">
+      <p className="text-xs text-zinc-200 ">
         Copyright &copy; 2024. All Rights Reserved.
       </p>
       <div className="flex justify-between items-center gap-2">
